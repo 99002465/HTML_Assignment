@@ -1,0 +1,18 @@
+       
+        h1{
+
+        
+        background-color : yellow;
+        color:red;
+        }
+        h2{
+        
+            background-color: ivory;
+            color: lightskyblue;
+        }
+        p{
+            background-color: bisque;
+            color: blueviolet;
+            text-transform:initial;
+        }
+

@@ -1,0 +1,10 @@
+h2 {
+  color: blue;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+p {
+  border: green solid 2px;
+  background-color: beige;
+}

@@ -1,0 +1,18 @@
+h2{
+    color: red;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#head{
+    background-color: yellowgreen;
+}
+div p{
+    @extend h2;
+    color: purple;
+    background-color: pink;
+}
+p{
+    @extend h2;
+    background-color: powderblue;
+    font-weight: 100;
+}

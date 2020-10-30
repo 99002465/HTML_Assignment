@@ -1,0 +1,19 @@
+h2, p, div p {
+  color: red;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+#head {
+  background-color: yellowgreen;
+}
+
+div p {
+  color: purple;
+  background-color: pink;
+}
+
+p {
+  background-color: powderblue;
+  font-weight: 100;
+}

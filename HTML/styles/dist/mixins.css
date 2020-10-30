@@ -1,0 +1,13 @@
+h2 {
+  background-color: orange;
+  letter-spacing: 3px;
+  color: green;
+  text-transform: uppercase;
+  text-transform: lowercase;
+}
+
+p {
+  background-color: bisque;
+  color: blueviolet;
+  background-color: blanchedalmond;
+}
