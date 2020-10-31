@@ -7,20 +7,24 @@
     <script>
         var uname=["ram2","tom3","ra4","win5"]
         var name=prompt("enter name")
-        flag=0;
+        flag=false;
         for(var i in uname){
                       if(uname[i]==name){
                       alert("welcome")
-                      flag=0
+                      flag=false
                       break
                       
             }
                       else{
-                      flag=1
+                      flag=true
+                     
+
             }
         }
-        if(flag==1)
+        if(flag==true)
         alert("invalid userid")
+       uname.push(name);
+       
        
     </script>
 </head>

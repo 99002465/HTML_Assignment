@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function tv(){
+            var arr=[LG,Samsung,Mi,Sony]
+            
+            for(var i in arr){
+                document.write(arr[i]);
+            }
+        }
+    </script>
+</head>
+<body>
+    <select name="lists" id="mylist">
+        <option value="select" >select...</option>
+        <option value="TV" onchange="tv()">TV</option>
+        
+        <option value="mobile" onchange="mobile()">mobile</option>
+        <option value="laptop" onchange="laptop()">laptop</option>
+      </select>
+    <div id="mydiv" style="background-color:palevioletred;"></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sayHello(){
+            uname=document.getElementById("username").value
+            city=document.getElementById("city").value
+            document.getElementById("mydiv").innerHTML='Welcome' +uname
+            document.getElementById("myp").innerText='Hi' +uname
+        }
+      
+    </script>
+</head>
+<body>
+    Enter Name<input type="text" id="username"><br/>
+    Enter city<input type="text" id="city"><br/>
+    <input type="button" valu="Click here" onclick="sayHello()">
+    <div id="mydiv" style="background-color:palevioletred;"></div>
+    <P id="myp"></P>
+</body>
+
+</html>
